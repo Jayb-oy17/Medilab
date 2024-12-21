@@ -1,0 +1,95 @@
+/** @format */
+
+@media (max-width: 1200px) {
+  .grid-box {
+    grid-template-columns: 1fr;
+  }
+  .hero-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contain {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-list-box {
+    display: none;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .stats {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+  .doctorsBox {
+    grid-template-columns: 1fr;
+  }
+  .testimony{
+    flex-direction: column;
+  }
+  swiper-container{
+    width: 100%;
+    height: 35vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .active {
+    grid-template-columns: 1fr;
+  }
+  .departImg {
+    display: none;
+  }
+  .appointName,
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-boxs{
+    grid-template-columns: 1fr;
+  }
+  .department-container {
+      grid-template-columns: 1fr;
+    }
+
+  .departmentsBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .departmentsBox li {
+    margin-bottom: 0;
+  }
+
+  .departments{
+    font-size: 16px;
+  }
+  .contact-info-box{
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .title {
+    margin: 3rem auto;
+  }
+  .departments-text{
+    position: relative;
+  }
+
+  .galleryImg{
+    grid-template-columns: 1fr;
+  }
+  .doctor{
+    flex-direction: column;
+  }
+  .nav-btn{
+    padding: 1rem;
+  }
+}
